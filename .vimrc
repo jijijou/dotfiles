@@ -36,6 +36,12 @@ set secure
 set number
 " Enable syntax highlighting
 syntax on
+" Makes the background dark
+set background=dark
+" uncomment for the light theme
+" set background=light
+" Loads solarized colors https://github.com/altercation/solarized/tree/master/vim-colors-solarized
+colorscheme solarized
 " Highlight current line
 set cursorline
 " Make tabs as wide as two spaces
