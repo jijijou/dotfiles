@@ -26,6 +26,10 @@
 	reb = "!r() { git rebase -i HEAD~$1; }; r"
 	# Undo a `git push`
 	undopush = push -f origin HEAD^:master
+	# Update all submodules and checkout them to master
+	sinit = ! git submodule init && git submodule update && git submodule foreach 'git checkout master'
+	# Pull all submodule
+	spull = submodule foreach 'git pull'
 
 [apply]
 	# Detect whitespace errors when applying a patch
