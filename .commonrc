@@ -14,3 +14,7 @@ if [ -d "$HOME/.rbenv/bin" ] ; then
 	export PATH="$HOME/.rbenv/bin":$PATH
 	eval "$(rbenv init -)"
 fi
+
+# dircolors
+eval `dircolors ~/.dir_colors`
+export TERM=xterm-256color
