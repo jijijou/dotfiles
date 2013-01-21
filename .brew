@@ -41,6 +41,7 @@ brew install lynx
 brew install node
 brew install rename
 brew install rhino
+brew install the_silver_searcher
 brew install tree
 brew install webkit2png
 
