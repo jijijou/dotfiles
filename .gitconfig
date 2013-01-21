@@ -85,4 +85,4 @@
 [url "git@github.com:aeyoll/"]
   insteadOf = "git://github.com/aeyoll/"
 [push]
-	default = simple
+	default = current
