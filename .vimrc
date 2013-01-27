@@ -104,7 +104,7 @@ set smartindent
 set cindent
 
 "tabs and spaces settings
-set expandtab "tab are spaces
+" set expandtab "tab are spaces
 set tabstop=4
 set shiftwidth=4
 set shiftround "round indent to shiftwidth
