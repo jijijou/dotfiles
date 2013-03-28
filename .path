@@ -6,6 +6,8 @@ PATH=$PATH:/opt/local/bin
 PATH=$PATH:/opt/local/sbin
 PATH=$PATH:/bin
 PATH=$PATH:~/code/git-friendly
-PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+if which brew 1>/dev/null 2>&1; then
+    PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+fi
 
 export PATH

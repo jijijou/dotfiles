@@ -30,6 +30,8 @@
 	sinit = ! git submodule init && git submodule update && git submodule foreach 'git checkout master'
 	# Pull all submodule
 	spull = submodule foreach 'git pull'
+	# Cherry pick of a merge commit
+	cherry-pick-merge = cherry-pick -m 1
 
 [apply]
 	# Detect whitespace errors when applying a patch
