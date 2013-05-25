@@ -135,3 +135,14 @@ if has("autocmd")
 	" Treat .json files as .js
 	autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 endif
+
+
+" Plugins
+
+" CtrlP (http://kien.github.com/ctrlp.vim/)
+" Full path fuzzy file, buffer, mru, tag, ... finder for Vim
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+" Add a key to search in opened buffers
+map <c-b> :CtrlPBuffer<cr>
+
